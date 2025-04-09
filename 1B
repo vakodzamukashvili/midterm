@@ -1,0 +1,3 @@
+I have used this command to decrypt file:
+openssl enc -aes-128-cbc -d -in secret.enc -out decrypted.txt -pass pass:Pass
+I am uploading decrypted.txt file
