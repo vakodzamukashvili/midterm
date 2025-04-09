@@ -1,2 +1,5 @@
 I have changed the phrase to "Never trust, always varify.";
-I am uploading screnshot3C.
+I am uploading screnshot3C which shows that HMAC was changed.
+HMAC is important because it:
+Ensures data integrity: Even the smallest change in the message (like one character) results in a completely different HMAC. This is due to the avalanche effect in cryptographic hash functions.
+Ensures authenticity: HMACs use a secret key. Without the correct key, an attacker cannot forge a valid HMAC even if they know the message and the algorithm.
