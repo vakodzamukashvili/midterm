@@ -1,0 +1,4 @@
+I have generated public key and extracted private key with the strings bellow:
+openssl ecparam -name prime256v1 -genkey -noout -out ecc_private.pem
+openssl ec -in ecc_private.pem -pubout -out ecc_public.pem
+I am uploading files - ecc_private.pem and ecc_public.pem
