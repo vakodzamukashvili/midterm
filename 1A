@@ -1,0 +1,3 @@
+I have encrypted file using command:
+openssl enc -aes-128-cbc -salt -in secret.txt -out secret.enc -pass pass:YourPassHere
+secret.txt and secret.enc are uploaded
