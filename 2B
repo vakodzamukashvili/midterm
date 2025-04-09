@@ -1,0 +1,7 @@
+I have created a file using script:
+echo "Elliptic Curves are efficient." > ecc.txt
+After, i have signed it using my private key:
+openssl dgst -sha256 -sign ecc_private.pem -out ecc.sig ecc.txt
+To verify, i have used script:
+openssl dgst -sha256 -verify ecc_public.pem -signature ecc.sig ecc.txt
+I am uploading the screenshot, ecc.txt and ecc.sig files.
